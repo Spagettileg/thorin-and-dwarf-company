@@ -1,0 +1,5 @@
+/* Target all img tags that are children of .col-md-5 only & avoid targeting a background image */
+
+.col-md-5 img {
+    width: 100%
+}
