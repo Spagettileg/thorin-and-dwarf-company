@@ -1,4 +1,5 @@
 import os # We're using os module to get the 'enviroment' variable > helps connect to Cloud9
+import json
 from flask import Flask, render_template # Importing our Flask Class. Render_Template supports writing of HTML code in python file.
 
 app = Flask(__name__) # Flask convention (__name__) is our variable is called 'app'. Creating an instance & storing in a variable called 'app'
@@ -13,7 +14,10 @@ def index(): # Function called 'index'
     
 @app.route("/about")
 def about():
-    return render_template("about.html", page_title="About")
+    data = []
+    with open("data/company.json", "r") as json_data:
+        data = json.load(json_data)
+    return render_template("about.html", page_title="About", company=data)
     
 @app.route("/contact")
 def contact():
