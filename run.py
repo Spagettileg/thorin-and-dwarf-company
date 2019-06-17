@@ -35,7 +35,7 @@ def about_member(member_name):
 @app.route("/contact", methods=["GET", "POST"]) # The GET & POST arguments are set in a array. 
 def contact():
     if request.method == "POST":
-        flash("Thanks {}, we have received youre message!".format(request.form["name"])) # For Flash messaging - link to contact.html page
+        flash("Thanks {}, we have received your message!".format(request.form["name"])) # For Flash messaging - link to contact.html page
     return render_template("contact.html", page_title="Contact")
     
 @app.route("/careers")
