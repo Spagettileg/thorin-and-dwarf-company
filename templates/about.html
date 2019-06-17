@@ -1,52 +1,59 @@
-{% extends 'base.html' %}
-{% block content %}
+{% extends 'base.html' %} {% block content %}
 
 
-    
-    <h2>{{ page_title }}</h2>
-    <p>
-      The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest in recapturing his long lost family inheritance. (Thorin's grandfather had been the king of the Lonely Mountain when Smaug came and took it.) Remembering that he had once known an adventurous Hobbit on his travels in the Shire, Gandalf decided to add Bilbo to their company because he knew that stealth and cunning were preferable to force. Gandalf also believed that someone like Bilbo could keep the sometimes prideful and stubborn Dwarves from rash action. The superstitious Dwarves also considered thirteen to be an unlucky number, and as Gandalf had planned to leave on other business, welcomed a fourteenth to fill into their party. ,  
-    </p>
-    
-    {% for member in company %}
-    
-    <!-- jinja templating language creates an object loop with a property = index --> 
-    <!-- See row 18 -->
-    
-    <div class="row featurette">
-        
-        {% if loop.index % 2 !=0 %} <!-- If loop.index, modulo 2 does not equal 0 -->
-        <!-- Check the loop index, divide by 2 & see if it divides cleanly -->
-        
-        <div class="col-md-7">
-            <h3>{{ loop.index }} {{ member.name }}</h3>  <!-- Aligns to "name" in company.json file -->
-        <p>{{ member.description }}</p> <!-- Aligns to "description" in company.json file -->
-        </div>
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive" src="{{ member.image_source }}" <!-- Aligns to "image_source" in company.json file -->
-            <!-- New class "featurette-image & img-responsive" added to improve 'look & feel' of the data -->
-        </div>
-        {% else %} <!-- Focuses on the Even numbers to display the image 1st and the text 2nd. Odd numbers are vice-versa -->
-        <div class="col-md-5">
-            <img class="featurette-image img-responsive" src="{{ member.image_source }}" <!-- Aligns to "image_source" in company.json file -->
-            <!-- New class "featurette-image & img-responsive" added to improve 'look & feel' of the data -->
-        </div>
-        <div class="col-md-7">
-            <h3>{{ loop.index }} {{ member.name }}</h3>  <!-- Aligns to "name" in company.json file -->
-        <p>{{ member.description }}</p> <!-- Aligns to "description" in company.json file -->
-        </div>
-        
-        {% endif %}
-        
+
+<h2>{{ page_title }}</h2>
+<p>
+    The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest in recapturing his long lost family inheritance. (Thorin's grandfather had been the king of the Lonely Mountain when Smaug came and took it.)
+    Remembering that he had once known an adventurous Hobbit on his travels in the Shire, Gandalf decided to add Bilbo to their company because he knew that stealth and cunning were preferable to force. Gandalf also believed that someone like Bilbo could
+    keep the sometimes prideful and stubborn Dwarves from rash action. The superstitious Dwarves also considered thirteen to be an unlucky number, and as Gandalf had planned to leave on other business, welcomed a fourteenth to fill into their party. ,
+</p>
+
+{% for member in company %}
+
+<!-- jinja templating language creates an object loop with a property = index -->
+<!-- See row 18 -->
+
+<div class="row featurette">
+
+    {% if loop.index % 2 !=0 %}
+    <!-- If loop.index, modulo 2 does not equal 0 -->
+    <!-- Check the loop index, divide by 2 & see if it divides cleanly -->
+
+    <div class="col-md-7">
+        <h3><a href="/about/{{ member.url }}">{{ loop.index }} {{ member.name }}</a></h3>
+        <!-- Aligns to "name" in company.json file -->
+        <p>{{ member.description }}</p>
+        <!-- Aligns to "description" in company.json file -->
     </div>
-    
-    {% if loop.index != 13 %} <!-- There are 13 elements in list. Anything after 13 is removed from view --> 
-    
-    <hr class="featurette-divider"> <!-- Class provided by the 'clean blog template' via Bootstrap import -->
-    
-    {% endif %} <!-- the last divider is removed from view for improved 'look & feel' -->
-    
-    {% endfor %}
-    
-{% endblock %}
+    <div class="col-md-5">
+        <img class="featurette-image img-responsive" src="{{ member.image_source }}" <!-- Aligns to "image_source" in company.json file -->
+        <!-- New class "featurette-image & img-responsive" added to improve 'look & feel' of the data -->
+    </div>
+    {% else %}
+    <!-- Focuses on the Even numbers to display the image 1st and the text 2nd. Odd numbers are vice-versa -->
+    <div class="col-md-5">
+        <img class="featurette-image img-responsive" src="{{ member.image_source }}" <!-- Aligns to "image_source" in company.json file -->
+        <!-- New class "featurette-image & img-responsive" added to improve 'look & feel' of the data -->
+    </div>
+    <div class="col-md-7">
+        <h3><a href="/about/{{ member.url }}">{{ loop.index }} {{ member.name }}</a></h3>
+        <!-- Aligns to "name" in company.json file -->
+        <p>{{ member.description }}</p>
+        <!-- Aligns to "description" in company.json file -->
+    </div>
 
+    {% endif %}
+
+</div>
+
+{% if loop.index != 13 %}
+<!-- There are 13 elements in list. Anything after 13 is removed from view -->
+
+<hr class="featurette-divider">
+<!-- Class provided by the 'clean blog template' via Bootstrap import -->
+
+{% endif %}
+<!-- the last divider is removed from view for improved 'look & feel' -->
+
+{% endfor %} {% endblock %}
