@@ -205,6 +205,10 @@ The site has been formally deployed to [Heroku](https://thorin-and-dwarf-company
 
 ### Media
 
+- [Thorin](https://wallpaper-house.com/group/thorin-oakenshield-wallpaper/index.php) README.md image sourced from [wallpaper-house](https://wallpaper-house.com/)
+- [Introduction banner image](https://live.staticflickr.com/8212/8288282995_7fe3c86f3e_b.jpg) sourced from [live.staticflickr](https://live.staticflickr.com/)
+
+
 ### Acknowledgements
 
 ***This website to be used for educational purposes.***
