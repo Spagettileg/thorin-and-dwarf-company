@@ -6,7 +6,7 @@
 
 ***
 
-![](static/img/frontpage.png)
+![](static/img/thorin-image.jpg)
 
 This project is designed to showcase the flask framework written in python. To keep the project interesting, the cast of The Hobbit feature in a storytelling capacity where the user experiences a 'meet & greet' environment.
 
