@@ -1,4 +1,4 @@
-# Thorin & Dwarf Company | Paul Friel | Full Stack Developer 
+# Thorin & Dwarf Company 
 
 [Direct link to GitHub](https://github.com/Spagettileg/thorin-and-dwarf-company)
 
