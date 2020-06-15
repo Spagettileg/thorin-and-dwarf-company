@@ -38,9 +38,9 @@ def contact():
         flash("Thanks {}, we have received your message!".format(request.form["name"])) # For Flash messaging - link to contact.html page
     return render_template("contact.html", page_title="Contact")
     
-@app.route("/careers")
-def careers():
-    return render_template("careers.html", page_title="Careers")
+@app.route("/register")
+def register():
+    return render_template("register.html", page_title="Register")
     
 if __name__ == "__main__":             # __main__ is the name of a default module in python
     app.run(host=os.environ.get("IP"), # An internal environment variable that Cloud9 has set
