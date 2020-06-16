@@ -43,7 +43,7 @@
             <a class="nav-link" href="{{ url_for('contact') }}">Contact Us</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="{{ url_for('register') }}">Register</a>
+            <a class="nav-link" data-target='#RegisterModal' data-toggle='modal'">Register</a>
           </li>
         </ul>
       </div>
@@ -111,6 +111,44 @@
       </div>
     </div>
   </footer>
+
+  <!-- Register Modal to join Amber-Club mailing list -->
+    <div class="modal fade" id="RegisterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Sign up for Thorin & Co</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="Name">First Name</label>
+                            <input type="name" class="form-control" id="RegisterName" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="Name">Surname</label>
+                            <input type="name" class="form-control" id="RegisterSurname" placeholder="Surname">
+                        </div>
+                        <div class="form-group">
+                            <label for="Email">Email address</label>
+                            <input type="email" class="form-control" id="Register Email" placeholder="Email">
+                            <p class="help-block">We'll never share your email address with anyone</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="Password">Password</label>
+                            <input type="password" class="form-control" id="RegisterPassword" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="PasswordRepeat">Repeat Password</label>
+                            <input type="password" class="form-control" id="RegisterPasswordRepeat" placeholder="Repeat Your Password">
+                        </div>
+                        <button type="submit" class="btn btn-read float-right">Register</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
