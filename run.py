@@ -45,6 +45,6 @@ def register():
 if __name__ == "__main__":             # __main__ is the name of a default module in python
     app.run(host=os.environ.get("IP"), # An internal environment variable that Cloud9 has set
     port=int(os.environ.get("PORT")),  # PORT is casted as an integer. The integer is needed 
-    debug=False)                       # 'True' allows us to debug code easier. Avoid using true for formal deployment to GitHub Pages
+    debug=False)                       # 'True' allows us to debug code easier. Avoid using true for formal deployment to Heroku
     
     
