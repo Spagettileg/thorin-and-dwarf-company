@@ -66,8 +66,13 @@ Colours used in this project were sourced from [MyColor Space](https://mycolor.s
 
 Colour          | Hex Code
 ----------------|----------
-TBC             | #TBC
-
+Oil Blue        | #0085A1
+Deep Oil Blue   | #00657B
+Raincloud Grey  | #868E96
+Silver Grey     | #E9ECEF
+Steel Grey      | #DEE2E6
+Coal Black      | #212529 
+White           | #FFF
 
 ### Typography
 `H1`, `H2`, `H3`, `H4`, `H5` & `H6` header classes
