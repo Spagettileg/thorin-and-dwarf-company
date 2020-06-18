@@ -68,7 +68,7 @@ blockquote {
 }
 
 ::-moz-selection {
-  color: #fff;
+  color: #FFF;
   background: #0085A1;
   /*Oil Blue*/
   text-shadow: none;
@@ -83,6 +83,14 @@ blockquote {
 }
 
 /*---------------Colour Pallette--------------*/
+
+/* Oil Blue -       #0085A1 */
+/* Dark Oil Blue -  #00657B */
+/* Raincloud Grey - #868e96 */
+/* Silver Grey -    #E9ECEF */
+/* Steel Grey -     #DEE2E6 */
+/* Coal Black -     #212529 */
+/* White -          #FFF    */
 
 /*---------------------Images-----------------*/
 
@@ -108,8 +116,8 @@ img::-moz-selection {
 
 #mainNav {
   position: absolute;
-  border-bottom: 1px solid #e9ecef;
-  background-color: white;
+  border-bottom: 1px solid #E9ECEF; /*Silver Grey*/
+  background-color: #FFF;
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
@@ -162,7 +170,7 @@ header.masthead .page-heading,
 header.masthead .post-heading,
 header.masthead .site-heading {
   padding: 200px 0 150px;
-  color: white;
+  color: #FFF;
 }
 
 header.masthead .page-heading,
@@ -264,7 +272,7 @@ header.masthead .post-heading .meta a {
   position: relative;
   margin-bottom: 0;
   padding-bottom: 0.5em;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid #DEE2E6;
   /*Steel Grey*/
 }
 
@@ -320,7 +328,7 @@ header.masthead .post-heading .meta a {
 }
 
 form .form-group:first-child .floating-label-form-group {
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid #DEE2E6;
   /*Steel Grey*/
 }
 
@@ -342,11 +350,11 @@ form .form-group:first-child .floating-label-form-group {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  color: #fff;
+  color: #FFF;
   /*White*/
-  background-color: #00657b !important;
+  background-color: #00657B !important;
   /*Dark Oil Blue*/
-  border-color: #00657b !important;
+  border-color: #00657B !important;
   /*Dark Oil Blue*/
 }
 
