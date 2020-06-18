@@ -1,7 +1,5 @@
 {% extends 'base.html' %} {% block content %}
 
-
-
 <h2>{{ page_title }}</h2>
 <p>
     The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest in recapturing his long lost family inheritance. (Thorin's grandfather had been the king of the Lonely Mountain when Smaug came and took it.)
@@ -20,27 +18,31 @@
     <!-- If loop.index, modulo 2 does not equal 0 -->
     <!-- Check the loop index, divide by 2 & see if it divides cleanly -->
 
+    <!-- Aligns to "name" & "description" in company.json file -->
     <div class="col-md-7">
         <h3><a href="/about/{{ member.url }}">{{ loop.index }} {{ member.name }}</a></h3>
-        <!-- Aligns to "name" in company.json file -->
         <p>{{ member.description }}</p>
-        <!-- Aligns to "description" in company.json file -->
     </div>
+    
+    <!-- New class "featurette-image & img-responsive" added to improve 'look & feel' of the data -->
+    <!-- Aligns to "image_source" in company.json file -->
     <div class="col-md-5">
-        <img class="featurette-image img-responsive" src="{{ member.image_source }}" <!-- Aligns to "image_source" in company.json file -->
-        <!-- New class "featurette-image & img-responsive" added to improve 'look & feel' of the data -->
+        <img class="featurette-image img-responsive" src="{{ member.image_source }}"> 
     </div>
+    
     {% else %}
+    
     <!-- Focuses on the Even numbers to display the image 1st and the text 2nd. Odd numbers are vice-versa -->
+    <!-- New class "featurette-image & img-responsive" added to improve 'look & feel' of the data -->
+    <!-- Aligns to "image_source" in company.json file -->
     <div class="col-md-5">
-        <img class="featurette-image img-responsive" src="{{ member.image_source }}" <!-- Aligns to "image_source" in company.json file -->
-        <!-- New class "featurette-image & img-responsive" added to improve 'look & feel' of the data -->
+        <img class="featurette-image img-responsive" src="{{ member.image_source }}"> 
     </div>
+    
+    <!-- Aligns to "name" & "description" in company.json file -->
     <div class="col-md-7">
         <h3><a href="/about/{{ member.url }}">{{ loop.index }} {{ member.name }}</a></h3>
-        <!-- Aligns to "name" in company.json file -->
         <p>{{ member.description }}</p>
-        <!-- Aligns to "description" in company.json file -->
     </div>
 
     {% endif %}
