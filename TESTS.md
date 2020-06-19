@@ -210,6 +210,37 @@ Opera    |58.0.3135.65
 #### Test Observations
 The following media queries were added to improve the project responsiveness on all tested devices.
 
-Media Query                 | Device  | Class           | Comments
-----------------------------|---------|-----------------|-------------
-TBC                         | TBC     | `tbc`           | `tbc`
+Media Query     | Device  | Class                                       | Comments
+----------------|---------|---------------------------------------------|-------------
+Min width 768px | Tablet  | `.post-preview > a > .post-title`           | `font-size: 2.25rem`
+Min width 768px | Tablet  | `header.masthead .page-heading`             | `padding: 12.5rem 0`
+Min width 768px | Tablet  | `header.masthead .post-heading`             | `padding: 12.5rem 0`
+Min width 768px | Tablet  | `header.masthead .site-heading`             | `padding: 12.5rem 0`
+Min width 768px | Tablet  | `header.masthead .page-heading h1`          | `font-size: 5rem`
+Min width 768px | Tablet  | `header.masthead .site-heading h1`          | `font-size: 5rem`
+Min width 768px | Tablet  | `header.masthead .post-heading h1`          | `font-size: 3.4375rem`
+Min width 768px | Tablet  | `header.masthead .post-heading .subheading` | `font-size: 1.875rem`
+
+Media Query     | Device  | Class                                                   | Comments
+----------------|---------|---------------------------------------------------------|-------------
+Min width 992px | Desktop | `#mainNav`                                              | `-webkit-transition: background-color 0.2s; transition: background-color 0.2s;`
+As above        |As above | As above                                                | `-webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0);`       
+As above        |As above | As above                                                | `-webkit-backface-visibility: hidden`
+Min width 992px | Desktop | `#mainNav.is-fixed`                                     | `position: fixed, top: -4.1875rem`
+As above        |As above | As above                                                | `-webkit-transition: -webkit-transform 0.2s; transition: -webkit-transform 0.2s;`
+As above        |As above | As above                                                | `transition: transform 0.2s; transition: transform 0.2s, -webkit-transform 0.2s;`
+As above        |As above | As above                                                | `border-bottom: 1px solid #FFF, background-color: rgba(255, 255, 255, 0.9)`
+Min width 992px | Desktop | `#mainNav.is-fixed .navbar-brand`                       | `color: #212529`
+Min width 992px | Desktop | `#mainNav.is-fixed .navbar-brand:focus`                 | `color: #0085A1`
+Min width 992px | Desktop | `#mainNav.is-fixed .navbar-brand:hover`                 | `color: #0085A1`
+Min width 992px | Desktop | `#mainNav.is-fixed .navbar-nav > li.nav-item > a`       | `color: #212529`
+Min width 992px | Desktop | `#mainNav.is-fixed .navbar-nav > li.nav-item > a:focus` | `color: #0085A1`
+Min width 992px | Desktop | `#mainNav.is-fixed .navbar-nav > li.nav-item > a:hover` | `color: #0085A1`
+Min width 992px | Desktop | `#mainNav.is-visible`                                   | `-webkit-transform: translate3d(0, 100%, 0); transform: translate3d(0, 100%, 0)`
+Min width 992px | Desktop | `#mainNav`                                              | `border-bottom: 1px solid transparent, background: transparent`
+Min width 992px | Desktop | `#mainNav .navbar-brand`                                | `padding: 0.625rem 1.25rem,  color: #FFF`
+Min width 992px | Desktop | `#mainNav .navbar-brand:focus`                          | `color: rgba(255, 255, 255, 0.8)`
+Min width 992px | Desktop | `#mainNav .navbar-brand:hover`                          | `color: rgba(255, 255, 255, 0.8)`
+Min width 992px | Desktop | `#mainNav .navbar-nav > li.nav-item > a`                | `padding: 0.625rem 1.25rem, color: #FFF`
+Min width 992px | Desktop | `#mainNav .navbar-nav > li.nav-item > a:focus`          | `color: rgba(255, 255, 255, 0.8)`
+Min width 992px | Desktop | `#mainNav .navbar-nav > li.nav-item > a:hover`          | `color: rgba(255, 255, 255, 0.8)`
