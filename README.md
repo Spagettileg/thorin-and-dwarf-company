@@ -48,8 +48,25 @@ Furthermore, the website serves as a fan club for avid followers of The Hobbit, 
 ### User & Business Objectives
 
 #### User
+- The registered customer belongs to a community of **The Hobbit** enthusiasts
+- Provide a clear insight on Thorin and his company of dwarfs
+- Access to the latest links to offer user accurate information on all characters 
+- Start a conversation upon latest news, old stories, etc through social media channels
+- Happy to browse current reading material, without obligation to purchase
+- Assured that personal details are secure from unauthorised access
 
 #### Business
+- Only registered users will enjoy benefits of joining the Thorin & Co community
+- Creation of a MyHobbit account is only for registered users to ensure bonafide credentials
+- Provide a simple and intuitive site for the user to click, search, read, create, add, update & delete own data. Access levels are determind through whether user has successfully registered
+- Use customer feedback to further improve the offerings of Thorin and Dwarf Company
+- Monitor user demand to help generate positive marketing campaigns
+
+#### Next Stage Generation
+- Create e-commerce capability to enable registered users to shop for The Hobbit merchandise
+- Leverage footfall data to attract commercial online advertising, with resultaqnt revenues used to maintain and grow website
+- Affiliate with film and cinema organisations through embracing user product affinity 
+- Create social media channels to promote 'Thorin and Dwarf Company'
 
 ### Wireframes
 My wireframe mock-up designs have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Thorin & Dwarf Company' website responsivenesson mobile, tablet and desktop devices.
