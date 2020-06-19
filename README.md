@@ -208,6 +208,15 @@ The site has been formally deployed to [Heroku](https://thorin-and-dwarf-company
 
 ### Content
 
+- [Gandalf](https://www.goodreads.com/quotes/tag/gandalf#:~:text=%E2%80%9CI%20will%20not%20say%3A%20do,all%20tears%20are%20an%20evil.%E2%80%9D&text=%E2%80%9CMany%20that%20live%20deserve%20death.) quote sourced from **Good Reads**
+- [Gandalf](https://en.wikipedia.org/wiki/Gandalf) character information sourced from wikipedia 
+- [Balin](https://www.thecharacterquotes.com/balin) quote sourced from **The Character Quotes**
+- [Balin](https://en.wikipedia.org/wiki/Balin_(Middle-earth)) character information sourced from wikipedia 
+- [Thorin Oakenshield](https://bookroo.com/quotes/thorin-oakenshield) quote sourced from **bookroo**
+- [Thorin Oakenshield](https://en.wikipedia.org/wiki/Thorin_Oakenshield) character information sourced from wikipedia 
+- [Bilbo Baggins](http://lotrproject.com/quotes/character/bilbo) quote sourced from **LOTR Project**
+- [Bilbo Baggins](https://en.wikipedia.org/wiki/Bilbo_Baggins) character information sourced from wikipedia 
+
 ### Media
 
 - [Thorin](https://wallpaper-house.com/group/thorin-oakenshield-wallpaper/index.php) README.md image sourced from [wallpaper-house](https://wallpaper-house.com/)
