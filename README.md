@@ -30,6 +30,7 @@ Furthermore, the website serves as a fan club for avid followers of The Hobbit, 
     * [Tools](#tools)
 
 3. [Features](#features)
+    * [Features to be implemented](#features-to-be-implemented)  
 
 4. [Tests](#tests)
     * [Compatibility](#compatibility)
@@ -189,6 +190,11 @@ For tablet and desktop views, the navbar offers 5 functions on a horizontal view
 - All users can apply to register to Thorin & Co for full membership
 - Users are required to provide their first name, surname, email address and create a password too
 - All input boxes are required to be completed by the user
+
+### Features to be implemented
+- Full user authentication and registration process to be created to ensure protection from mis-adventure or malicious attack
+- Contact process to be connectd ot emailJS to ensure a valid email message can be sent and received
+- MyThorin to be created to enable user to self-service their personal details and change password 
 
 ## Tests
 Test analysis and reporting can be viewed in a separate [TESTS.md](https://github.com/Spagettileg/thorin-and-dwarf-company/blob/master/TESTS.md) file.
