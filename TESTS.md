@@ -70,6 +70,29 @@ Hello World
 ### Manual Testing
 ##### Registration Testing
 
+###### •	First Name (register.html)
+1.	Key url address in web browser
+2.	Click on 'Register' in navbar
+3.	Click in 'First Name' field (placeholder text helps the user with data entry)
+4.	Key in first name
+5.	If empty fields exist when clicking 'Submit', then user will get error message with request to complete missing data
+6.	Once data entered, user to move to next data input request
+
+###### •	Surname (register.html)
+1.	Click in 'Surname' field (placeholder text helps the user with data entry)
+2.	Key in surname
+3.	If empty fields exist when clicking 'Submit', then user will get error message with request to complete missing data
+4.	Once data entered, user to move to next data input request
+
+###### •	Email Address (register.html)
+1.	Click in 'Email Address' field (placeholder text helps the user with data entry)
+2.	Key in email address
+3.	If empty fields exist when clicking 'Submit', then user will get error message with request to complete missing data
+4.	Once data entered, user to move to next data input request
+
+
+
+
 ##### Navigation Testing
 
 ### Code Validation
