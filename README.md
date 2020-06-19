@@ -117,8 +117,9 @@ Font Awesome 5 icon graphics were used in conjunction with Bootstrap 4, primaril
 
 Page           | Function                     | Font  
 ---------------|------------------------------|-------
-TBC            | TBC                          | `tbc`
-
+base.html      | Social Media - Twitter       | `fab fa-twitter`
+base.html      | Social Media - Facebook      | `fab fa-facebook`
+base.html      | Social Media - Instagram     | `fab fa-instagram`
 
 ### Navbar design
 For tablet and desktop views, the navbar offers 5 functions on a horizontal view. For mobile devices, all the same options collapse into a responsive design. 
