@@ -74,6 +74,20 @@ My wireframe mock-up designs have been created in [Balsamiq](https://balsamiq.co
 •	[Thorin & Dwarf Company](https://github.com/Spagettileg/resume/blob/master/wireframes/thorinfinal.zip)
 
 ### User Stories
+> I need an app that provides quick and intuitive access to introduce me to The Hobbits characters 
+
+> I want detailed information on the characters background, behavioural attributes and relationship with the overall group
+
+> My personal information must be secure and password protected 
+
+> To have access to social media channels to understand news and views of fellow enthusiasts 
+
+> I would like the opportunity to write a review / provide feedback of my user experience via a contact facility 
+
+> I want to view good quality images of all characters
+
+> I want to view and read individual character write ups 
+
 
 ### CSS Framework
 Bootstrap was the chosen framework for styling my project. I used the Bootstrap grid extensively to support responsiveness on mobile, tablet and desktop devices.
