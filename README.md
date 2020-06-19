@@ -142,27 +142,7 @@ For tablet and desktop views, the navbar offers 5 functions on a horizontal view
 **Register (register.html)**
 
 ## Tests
-User acceptance testing control document created in MS Excel. Key tests created to ensure
-the software performs consistently on different browser platforms. Any deviation from the intended
-design will be captured in the test matrix.
-
-### Compatibility
-The following browsers were used in testing the resume application. Internet Explorer was out of scope for testing due to obsolete capability
-
-platform | version
----------|--------
-Chrome   |80.0.3987.87
-Edge     |44.18362.449.0
-Firefox  |74.0.2
-Safari   |12.4.5
-Opera    |66.0.3515.72
-
-### Test Observations
-The following media queries were added to improve the project responsiveness on all tested devices.
-
-Media Query                 | Device  | Class           | Comments
-----------------------------|---------|-----------------|-------------
-TBC                         | TBC     | `tbc`           | `tbc`
+Test analysis and reporting can be viewed in a separate [TESTS.md](https://github.com/Spagettileg/thorin-and-dwarf-company/blob/master/TESTS.md) file.
 
 ## Deployment
 
