@@ -164,6 +164,9 @@ Hello World
 2. Click **Return** button and user navigates to `about.html` page
 
 ###### •	Social media links tests
+1. Hover cursor on **Social Media Icon** and cursor pointer appears with button colour change from Coal Black to Oil Blue 
+2. Click **Social Media Icon** and user will navigate to either **twitter**, **facebook** or **instagram**, depending on selected icon
+
 
 ### Code Validation
 
