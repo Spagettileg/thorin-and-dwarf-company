@@ -29,6 +29,44 @@ All possible user actions were mimicked to put the tester in the shoes of the us
 
 ### Systems Based Testing 
 
+- Flask Application testing for connection to web-browser:
+ 
+```
+import os
+from flask import Flask
+app = Flask(__name__)
+@app.route('/')  # Route decorator & default test
+def hello():
+    return 'Hello World'
+    
+if __name__ == '__main__':
+    app.run(host=os.environ.get('IP'),
+    port=int(os.environ.get('PORT')),
+    debug=True)
+
+```
+- Outcome in Bash Ubuntu (Flask testing):
+
+```
+ubuntu:~environment $ python3 run.py
+    *Serving Flask app "app" (lazyloading)
+    *Envioronment: production
+     WARNING: This is a development server. Do not use it in a production deployment.
+     Use a production WSGI server instead.
+    *Debug mode: on
+    *Running on http://127.0.0.1:5000 (Press CTRL+C to quit)
+    *Restarting with stat
+    *Debugger is active
+    *Debugger PIN: xxx-xxx-xxx
+
+```
+- Outcome in web browser (Flask testing passed):
+
+```
+Hello World
+
+```
+
 ### Manual Testing
 ##### Registration Testing
 
