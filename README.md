@@ -166,12 +166,29 @@ For tablet and desktop views, the navbar offers 5 functions on a horizontal view
 ## Features
 
 **Home (index.html)**
+- User can view important quotes posted by characters from The Hobbit
+- Links are available to the source of the posted quote and to wikipedia for detailed narrative on the character
+- More quotes are available to view through clicking a **more posts** button
+- User can access social media channels for twitter, facebook & instagram
 
 **About (about.html)**
+- A holistic insight into the The Hobbits group of characters is made available for the user
+- Name of the character is supported by a descriptive narrative and a colour image
+- User can click on the character name to navigate to a single profile view
+- Once the user has finished viewing the single profile, they can click a **return** button to head back to `about.html` page 
+- User can access social media channels for twitter, facebook & instagram
 
 **Contact (contact.html)**
+- User is required to complete their name, email address, phone number and a message to initiate a message request to Thorin & Co
+- The users data entry is supported by placeholder text in each input box
+- All input boxes are required to be completed by the user
+- User can access social media channels for twitter, facebook & instagram
 
 **Register (register.html)**
+- User will experience the registration process via a modal window
+- All users can apply to register to Thorin & Co for full membership
+- Users are required to provide their first name, surname, email address and create a password too
+- All input boxes are required to be completed by the user
 
 ## Tests
 Test analysis and reporting can be viewed in a separate [TESTS.md](https://github.com/Spagettileg/thorin-and-dwarf-company/blob/master/TESTS.md) file.
