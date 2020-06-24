@@ -72,7 +72,7 @@ Furthermore, the website serves as a fan club for avid followers of The Hobbit, 
 ### Wireframes
 My wireframe mock-up designs have been created in [Balsamiq](https://balsamiq.com/) to showcase the 'Thorin & Dwarf Company' website responsivenesson mobile, tablet and desktop devices.
 
-•	[Thorin & Dwarf Company](https://github.com/Spagettileg/resume/blob/master/wireframes/thorinfinal.zip)
+•	[Thorin & Dwarf Company](https://github.com/Spagettileg/thorin-and-dwarf-company/blob/master/wireframes/thorin-and-dwarf-company_final.zip)
 
 ### User Stories
 > I need an app that provides quick and intuitive access to introduce me to The Hobbits characters 
