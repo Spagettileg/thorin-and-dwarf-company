@@ -2,7 +2,7 @@
 
 [Direct link to GitHub](https://github.com/Spagettileg/thorin-and-dwarf-company)
 
-[Direct link to live resume](https://thorin-and-dwarf-company.herokuapp.com/#)
+[Direct link to live website](https://thorin-and-dwarf-company.herokuapp.com/#)
 
 ***
 
