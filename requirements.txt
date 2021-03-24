@@ -36,7 +36,7 @@ pytest==5.4.3
 python-dateutil==1.5
 pytz==2019.1
 pyyaml>=4.2b1
-rsa==3.4.2
+rsa==4.1
 s3transfer==0.2.0
 six==1.15.0
 stevedore==1.30.1
