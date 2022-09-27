@@ -1,7 +1,7 @@
 import os
 """
 We're using os module to get the 'enviroment' variable > helps connect
-to Cloud9
+to Cloud9 IDE
 """
 import json
 from flask import Flask, render_template, request, flash
